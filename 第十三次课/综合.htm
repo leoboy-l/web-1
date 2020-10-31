@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>综合练习</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: aqua;
+        }
+
+        #mian {
+            background-color: greenyellow;
+            height: 500px;
+            width: 800px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -400px;
+            margin-top: -250px;
+        }
+
+        .tableft {
+            background-color: cadetblue;
+            width: 30%;
+            height: 90%;
+            position: absolute;
+            top: 5%;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+        }
+
+        .menu a {
+            text-decoration: none;
+        }
+
+        .menu {
+            background-color: deeppink;
+            width: 100%;
+            height: 40px;
+            margin-top: 10px;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 5%;
+        }
+
+        .menu a {
+            display: block;
+            width: 100%;
+            height: 40px;
+        }
+
+        .menu a:active {
+            background-color: rgb(61, 61, 134);
+        }
+
+        .tableft div:first-child {
+            background-color: blanchedalmond;
+            margin-top: 70px;
+        }
+
+        .tabRight {
+            background-color: burlywood;
+            float: right;
+            width: 70%;
+            height: 90%;
+            position: relative;
+            top: 5%;
+        }
+
+        .content {
+            background-color: beige;
+        }
+        .content p{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper" id="main">
+        <div class="tableft">
+            <div class="menu" id="home"><a href="#home" class="">学校概况</a></div>
+            <div class="menu" id="news"><a href="#news" class="">新闻中心</a></div>
+            <div class="menu" id="department"><a href="#department" class="">机构设置</a></div>
+            <div class="menu" id="teachers"><a href="#teachers" class="">师资队伍</a></div>
+            <div class="menu" id="teaching"><a href="teaching" class="">教育教学</a></div>
+        </div>
+        <div class="tabRight"></div>
+        <div class="menu" id="home"></div>
+        <div class="menu" id="news"></div>
+        <div class="menu" id="department"></div>
+        <div class="menu" id="teachers"></div>
+        <div class="menu" id="teaching"></div>
+    </div>
+</body>
+
+</html>
